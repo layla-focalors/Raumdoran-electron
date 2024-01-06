@@ -16,7 +16,7 @@ const createWindow = () =>{
         }
     });
     win.maximize();
-    win.webContents.openDevTools();
+    // win.webContents.openDevTools();
     console.log(urls[0]);
 
     win.loadURL(urls[0]);
