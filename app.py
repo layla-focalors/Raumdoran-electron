@@ -14,6 +14,10 @@ while True:
     elif(value[0:3] == 'pip'):
         os.system(f'{value}')
         continue
+    elif(value[0:3] == 'reb'):
+        os.system('taskkill /f /im node.exe')
+        os.system('npm start')
+        continue
     os.system('git add .')
     os.system('git status')
     os.system(f'git commit -m "{value}"')

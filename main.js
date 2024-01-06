@@ -9,7 +9,8 @@ const createWindow = () =>{
     win = new BrowserWindow({
         center: true,
         resizable: true,
-        icon: path.join(__dirname, 'assets/icons/png/64x64.png'),
+        title: "Raumdoran Desktop",
+        icon: path.join(__dirname, 'assets/png/64x64.png'),
         webPreferences:{
             nodeIntegration: false,
             show: false
