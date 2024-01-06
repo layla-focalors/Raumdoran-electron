@@ -1,6 +1,6 @@
 {
-  "name": "Raumdoran-desktop",
-  "version": "0.1.0",
+  "name": "raumdoran_apps",
+  "version": "0.1.8",
   "author": "layla-focalors",
   "description": "Raumdoran electron apps",
   "main": "main.js",
