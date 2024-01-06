@@ -14,7 +14,8 @@ const createWindow = () =>{
         webPreferences:{
             nodeIntegration: false,
             show: false
-        }
+        },
+        menu: null
     });
     win.maximize();
     // win.webContents.openDevTools();
@@ -24,7 +25,7 @@ const createWindow = () =>{
     win.once('ready-to-show',()=>{
         win.show()
     });
-
+    win.setMenu(null);
     win.on('closed',()=>{
         win = null;
     });
